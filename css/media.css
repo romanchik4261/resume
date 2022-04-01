@@ -1,0 +1,29 @@
+@media (max-width: 750px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+
+  .info-text {
+    margin: auto;
+    width: 50%;
+  }
+
+  .btn-header:not(:last-child) {
+    margin-right: 3px;
+  }
+}
+
+@media (max-width: 565px) {
+  .btn {
+    padding: 8px 8px;
+  }
+
+  .form-group {
+    display: block;
+  }
+
+  .form-input {
+    width: 100%;
+  }
+}

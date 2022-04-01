@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+a:hover {
+  color: #2f94f3;
+}
+
+/* a:visited {
+  color: #4c1557;
+} */
+
+body {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 18px;
+  letter-spacing: 1px;
+
+  background: #dff4f3;
+  color: #505891;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1e224b;
+  padding-bottom: 10px;
+}
+p:not(:last-child) {
+  padding-bottom: 5px;
+}
+
+.navbar {
+  width: 750px;
+  max-width: 750px;
+  background: #9dd9e0;
+  position: fixed;
+  top: 0;
+  border-radius: 0 0 8px 8px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.btn-header:not(:last-child) {
+  margin-right: 10px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  margin-top: 63px;
+}
+
+.info-text {
+  width: 70%;
+  padding-top: 20px;
+  margin-left: 40px;
+}
+
+.info-list {
+  display: flex;
+}
+
+.smile {
+  width: 50px;
+  height: 50px;
+  margin-left: 100px;
+  margin-top: 45px;
+}
+
+.card {
+  border: none;
+  padding: 25px 25px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  background: #c0e7e5;
+}
+
+.avatar {
+  width: 30%;
+  border-radius: 50px;
+  box-shadow: 6px 6px 14px rgba(0, 0, 0, 0.5);
+}
+
+.list-li {
+  margin-left: 15px;
+}
+
+.form-group {
+  display: flex;
+}
+
+.form-input {
+  width: 50%;
+}
+
+.form-input:not(:last-child) {
+  margin-right: 20px;
+}
+/* 
+input {
+  width: 100%;
+} */
+
+input,
+textarea {
+  background: #dff4f3;
+  border: 1px solid #1e224b28;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 0;
+
+  margin-bottom: 10px;
+  outline: none;
+  font-family: inherit;
+  font-size: 16px;
+  width: 100%;
+}
+
+label {
+  display: block;
+}
+
+.btn {
+  background: #9dd9e0;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: #1d224d;
+  border: none;
+  cursor: pointer;
+  font-family: "PT Sans Narrow";
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 1px;
+}
+
+.btn:hover {
+  background: #878dbe38;
+  transition: all, 0.5s;
+}
+
+.btn-footer:not(:last-child) {
+  margin-right: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+table td {
+  text-align: left;
+  padding: 10px 10px;
+  background: #cff0ee;
+}
+
+table th {
+  padding: 10px 10px;
+  background: #cff0ee;
+}
+
+.footer-social {
+  display: flex;
+}
